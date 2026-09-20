@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KREŚL - druk 3D na zamówienie, gotowe modele i personalizowane breloki." />
+  <title>KREŚL / studio druku 3D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topline">
+    <a href="tel:+48000000000">+48 000 000 000</a>
+    <span>drukujemy pomysły, nie kompromisy</span>
+    <span class="topline-status"><i></i> realizujemy zamówienia</span>
+  </div>
+
+  <header class="nav-shell">
+    <a class="brand" href="#start" aria-label="KREŚL - strona główna">
+      <span class="brand-mark">K</span>
+      <span>KREŚL<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Główna nawigacja">
+      <a href="#sklep">Sklep</a>
+      <a href="#filamenty">Filamenty</a>
+      <a href="#drukarka">Sprzęt</a>
+      <a href="#marka">O marce</a>
+    </nav>
+    <a class="nav-cta" href="#zamowienie"><span>Zamów indywidualnie</span><span class="arrow">↗</span></a>
+    <button class="menu-toggle" aria-label="Otwórz menu">☰</button>
+  </header>
+
+  <main id="start">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> studio druku 3D / polska pracownia</p>
+        <h1>Rzeczy,<br /><em>które mają</em><br />kształt.</h1>
+        <p class="hero-lead">Projektujemy i drukujemy przedmioty, które zostają z Tobą na dłużej. Od małych dodatków po duże, całkiem własne pomysły.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#sklep">Zobacz sklep <span>↘</span></a>
+          <a class="text-link" href="#zamowienie">Masz swój pomysł? <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal reveal-delay">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-object">
+          <span class="object-label">01 / OBJECT</span>
+          <div class="object-form"><span></span><span></span><span></span></div>
+          <span class="object-name">FORMA 01</span>
+        </div>
+        <div class="hero-note">wydrukowane<br /><strong>z intencją.</strong></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Oferta KREŚL">
+      <div class="ticker-track"><span>GOTOWE MODELE</span><b>✦</b><span>PERSONALIZACJA</span><b>✦</b><span>DRUK NA ZAMÓWIENIE</span><b>✦</b><span>GOTOWE MODELE</span><b>✦</b><span>PERSONALIZACJA</span></div>
+    </section>
+
+    <section id="sklep" class="section-pad shop-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / wybierz coś dla siebie</p><h2>Małe rzeczy,<br /><em>duży charakter.</em></h2></div>
+        <p class="section-intro">Przedmioty zaprojektowane w naszej pracowni. Każdy możesz zamówić w innym kolorze.</p>
+      </div>
+      <div class="photo-tip"><span class="tip-icon">＋</span><p><strong>Tu wrzucisz swoje zdjęcia.</strong> Podmień pliki w folderze <code>assets/</code> i zachowaj nazwy: <code>product-vase.jpg</code>, <code>product-hook.jpg</code>, <code>product-tray.jpg</code>.</p></div>
+      <div class="product-grid">
+        <article class="product-card product-card-wide">
+          <div class="product-image product-image-vase"><span class="image-tag">01 / 03</span><span class="product-shape vase-shape"></span></div>
+          <div class="product-meta"><div><h3>Wazon Loop</h3><p>PLA matte / organiczna forma</p></div><strong>89 zł</strong></div>
+          <button class="product-add" data-product="Wazon Loop">Dodaj do zapytania <span>＋</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-image-hook"><span class="image-tag">02 / 03</span><span class="product-shape hook-shape"></span></div>
+          <div class="product-meta"><div><h3>Hak Mono</h3><p>PETG / 3 sztuki</p></div><strong>39 zł</strong></div>
+          <button class="product-add" data-product="Hak Mono">Dodaj do zapytania <span>＋</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-image-tray"><span class="image-tag">03 / 03</span><span class="product-shape tray-shape"></span></div>
+          <div class="product-meta"><div><h3>Taca Line</h3><p>PLA / 22 × 12 cm</p></div><strong>59 zł</strong></div>
+          <button class="product-add" data-product="Taca Line">Dodaj do zapytania <span>＋</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section id="zamowienie" class="order-section section-pad">
+      <div class="order-copy"><p class="eyebrow">02 / Twój pomysł</p><h2>Opowiedz nam,<br /><em>co wydrukować.</em></h2><p>Nie musisz mieć gotowego pliku. Opisz pomysł, dołącz zdjęcie lub szkic, a wrócimy z wyceną.</p><div class="order-detail"><span>↗</span><div><strong>Wycena bez zobowiązań</strong><small>Odpowiadamy zwykle w 1 dzień roboczy</small></div></div></div>
+      <form class="order-form" id="orderForm">
+        <div class="form-row"><label>Imię <input type="text" name="firstName" placeholder="np. Szymon" required /></label><label>Nazwisko <input type="text" name="lastName" placeholder="np. Kowalski" required /></label></div>
+        <label>Adres e-mail <input type="email" name="email" placeholder="ty@przyklad.pl" required /></label>
+        <label>Co chcesz wydrukować? <textarea name="message" rows="4" placeholder="Napisz kilka słów o swoim pomyśle, rozmiarze i kolorze..." required></textarea></label>
+        <div class="form-bottom"><span class="form-note">Możesz też wysłać plik później<br />na hello@kresl.studio</span><button class="button button-blue" type="submit">Poproś o wycenę <span>↗</span></button></div>
+        <p class="form-success" id="formSuccess" role="status">Dziękujemy. Wiadomość jest gotowa do wysłania.</p>
+      </form>
+    </section>
+
+    <section id="filamenty" class="section-pad materials-section">
+      <div class="section-heading"><div><p class="eyebrow">03 / materiały</p><h2>Kolor ma<br /><em>znaczenie.</em></h2></div><p class="section-intro">Aktualnie dostępne filamenty do Twojego projektu. Napisz w formularzu, który wybierasz.</p></div>
+      <div class="material-list">
+        <div class="material-row"><span class="material-swatch swatch-black"></span><strong>Onyx Black</strong><span>PLA Matte</span><b>Dostępny</b><span>→</span></div>
+        <div class="material-row"><span class="material-swatch swatch-white"></span><strong>Studio White</strong><span>PLA Basic</span><b>Dostępny</b><span>→</span></div>
+        <div class="material-row"><span class="material-swatch swatch-grey"></span><strong>Concrete Grey</strong><span>PETG</span><b>Dostępny</b><span>→</span></div>
+        <div class="material-row"><span class="material-swatch swatch-blue"></span><strong>Electric Blue</strong><span>PLA Silk</span><b>Dostępny</b><span>→</span></div>
+      </div>
+    </section>
+
+    <section id="drukarka" class="printer-section section-pad"><div class="printer-visual"><div class="printer-grid-lines"></div><div class="printer-machine"><div class="printer-top"></div><div class="printer-glass"><span class="print-piece"></span></div><div class="printer-base">A1 mini</div></div><span class="printer-caption">Bambu Lab / 2024</span></div><div class="printer-copy"><p class="eyebrow">04 / nasz sprzęt</p><h2>Bambu Lab<br /><em>A1 mini.</em></h2><p>Mała, precyzyjna i cicha. To właśnie na niej powstaje większość naszych małych form.</p><ul><li><span>01</span><strong>Pole robocze</strong><b>180 × 180 × 180 mm</b></li><li><span>02</span><strong>Technologia</strong><b>FDM / 0.4 mm</b></li><li><span>03</span><strong>Materiały</strong><b>PLA · PETG · TPU</b></li></ul></div></section>
+
+    <section id="brelok" class="keychain-section section-pad"><div class="keychain-copy"><p class="eyebrow">05 / zrób to po swojemu</p><h2>Brelok z Twoim<br /><em>imieniem.</em></h2><p>Wpisz tekst i zobacz, jak może wyglądać Twój własny brelok. Prosty detal, który robi robotę.</p><label class="keychain-input"><span>Twój tekst</span><input id="keychainText" type="text" value="SZYMOn" maxlength="12" /></label><button class="button button-dark" id="addKeychain" type="button">Dodaj do zapytania <span>＋</span></button></div><div class="keychain-preview"><div class="keychain-ring"></div><div class="keychain-tag"><span id="keychainPreview">SZYMOn</span></div><span class="preview-label">PODGLĄD / 01</span></div></section>
+
+    <section id="marka" class="brand-section section-pad"><p class="eyebrow">06 / o KREŚL</p><div class="brand-statement"><h2>Wierzymy, że<br /><span>codzienność</span> może<br />mieć lepszą formę.</h2><p>KREŚL to mała pracownia druku 3D z dużą słabością do dobrych proporcji, prostych rzeczy i pomysłów, które warto dotknąć.</p></div><div class="brand-footer"><span>KREŚL. STUDIO DRUKU 3D</span><span>WARSZAWA / PL</span><span>EST. 2024</span></div></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#start"><span class="brand-mark">K</span><span>KREŚL<span class="brand-dot">.</span></span></a><p>Drukujemy pomysły.</p><a href="mailto:hello@kresl.studio">hello@kresl.studio ↗</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
